@@ -1,5 +1,8 @@
 # ProjetoBlogAngular
 
+## Link para o design utilizado como inspiração
+https://dribbble.com/shots/20776137-Blog-header
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 
 ## Development server

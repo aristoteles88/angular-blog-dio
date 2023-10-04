@@ -1,0 +1,58 @@
+.container__menu-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  font-size: 2lvw;
+}
+
+.menu-icon{
+  height: 50px;
+  width: 50px;
+}
+
+.menu-bar__left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-bar__left > fa-icon{
+  font-size: 40px;
+}
+
+.menu-bar__left > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-bar__left > ul > li{
+  margin-right: 1lvw;
+  list-style: none;
+
+}
+
+.menu-bar__right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-bar__right > ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-bar__right > ul > li{
+  margin-right: 1lvw;
+  list-style: none;
+}
+
+.search-field{
+  margin-right: 1lvw;
+  padding: 0.5lvw;
+  border: 5px solid #cccccc;
+  border-radius: 15px;
+  width: 15lvw;
+}

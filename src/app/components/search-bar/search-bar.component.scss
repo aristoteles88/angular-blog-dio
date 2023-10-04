@@ -1,0 +1,25 @@
+.search-bar__content{
+  display: flex;
+  flex-direction: row;
+  // width: 100%;
+  justify-content: space-between;
+}
+
+.search-bar__separator > hr{
+  margin: 2px 5%;
+}
+
+.search-bar__left > ul{
+  display: flex;
+  // flex-direction: row;
+  margin-left: 9.5%;
+  list-style: none;
+  font-size: 1.5lvw;
+  width: 70%;
+}
+
+.search-bar__left > ul > li{
+  margin-right: 1%;
+  white-space: nowrap;
+}
+

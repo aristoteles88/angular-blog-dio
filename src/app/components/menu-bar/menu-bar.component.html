@@ -1,1 +1,23 @@
-<p>menu-bar works!</p>
+<div class="container__menu-bar">
+  <div class="menu-bar__left">
+    <fa-icon class="menu-icon" [icon]="faGithub"></fa-icon>
+    <ul>
+      <li><a href="#">Product <fa-icon class="chevron-down-icon" [icon]="faChevronDown"></fa-icon></a></li>
+      <li><a href="#">Solutions <fa-icon class="chevron-down-icon" [icon]="faChevronDown"></fa-icon></a></li>
+      <li><a href="#">Open Source <fa-icon class="chevron-down-icon" [icon]="faChevronDown"></fa-icon></a></li>
+      <li><a href="#">Pricing <fa-icon class="chevron-down-icon" [icon]="faChevronDown"></fa-icon></a></li>
+    </ul>
+  </div>
+
+  <div class="menu-bar__right">
+    <form class="search-form">
+      <mat-form-field class="search-field">
+        <input matInput placeholder="Search GitHub" type="text">
+      </mat-form-field>
+    </form>
+    <ul>
+      <li><a href="#"></a>Sign In</li>
+      <li><a href="#"></a>Sign Up</li>
+    </ul>
+  </div>
+</div>

@@ -1,10 +1,16 @@
 .container__small-card{
-  margin-left: 20px;
-  width: 400px;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  width: 100%;
   height: 33%;
 }
 
 .small-card__photo > img{
-  min-width: 400px;
-  margin-bottom: 20px;
+  width: 20lvw;
+  height: 25lvh;
+  margin-bottom: 2%;
+}
+
+.small-card__title > h1 {
+  font-size: 2lvw;
 }
